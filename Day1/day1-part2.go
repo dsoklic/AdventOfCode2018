@@ -14,7 +14,7 @@ func check(e error) {
 }
 
 func main() {
-	f, err := os.Open("puzzle1.txt")
+	f, err := os.Open("Day1/puzzle1.txt")
 	check(err)
 
 	scanner := bufio.NewScanner(f)
